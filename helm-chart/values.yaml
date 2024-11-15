@@ -6,3 +6,10 @@ backend:
   host: pcalaret-backend.codelab.cloud-sp.eu
   service:
     port: 443
+frontend:
+  name: pfront
+  image: docker.io/rkaeffer/codelab-gitops-frontend:1.0.0
+  containerPort: 4200
+  host: pcalaret-frontend.codelab.cloud-sp.eu
+  service:
+    port: 443

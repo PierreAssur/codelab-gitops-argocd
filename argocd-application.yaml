@@ -9,11 +9,11 @@ spec:
   project: default
   # Source of the application manifests
   source:
-    repoURL: https://github.com/PierreAssur/mon-projet-jour2.git
+    repoURL: https://github.com/PierreAssur/codelab-gitops-argocd.git
     path: helm-chart
     targetRevision: main
     helm:
-      releaseName: tag_helm
+      releaseName: taghelm
   # Destination cluster and namespace to deploy the application
   destination:
     name: in-cluster
