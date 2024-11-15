@@ -10,7 +10,7 @@ spec:
   # Source of the application manifests
   source:
     repoURL: https://github.com/PierreAssur/mon-projet-jour2.git
-    path: https://github.com/PierreAssur/codelab-gitops-argocd/helm-chart
+    path: https://github.com/PierreAssur/codelab-gitops-argocd/tree/main/helm-chart
     targetRevision: main
     helm:
       releaseName: tag_helm
